@@ -345,11 +345,11 @@ main {
 .project__image-container {
  position: relative;
  width: 100%;
- height: 200px;
+ height:155px;
  overflow: hidden;
  flex-shrink: 0;
  display: flex;
- align-items: center;
+ align-items: flex-start;
  justify-content: center;
  background-color: var(--clr-bg-alt);
 }
@@ -369,7 +369,8 @@ main {
 }
 
 .project h3 {
-  padding: 1em 1em 0.5em 1em;
+  align-items: flex-start;
+  padding: 0.8em 1em 0.5em 1em;
   margin: 0;
   flex-shrink: 0;
 }
@@ -378,7 +379,7 @@ main {
   margin: 0.5em 1em;
   font-size: 0.9rem;
   text-align: left;
-  flex-grow: 1;
+  flex-grow: 0;
 }
 
 .project__description__items {
